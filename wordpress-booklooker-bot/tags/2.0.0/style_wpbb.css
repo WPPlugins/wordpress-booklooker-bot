@@ -1,0 +1,152 @@
+/*CSS Booklooker-Bot für WordPress */
+
+/* Titeldarstellung des jeweiligen Produkts */
+/*H4-Überschrift für den Produkttitel*/
+.wpbb_h4 {
+	font-size: 1.1em;
+	margin: 0;
+}
+/*Die Tabelle in der die Artikel gelistet werden*/
+/**Tabelle selbst**/
+.wpbb_table {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	border-collapse: collapse;
+	vertical-align: top;
+	min-width: 500px;
+	width: 100%;
+}
+/**Zellen**/
+.cont_wpbb td {
+	margin: 0 !important;
+}
+/**Tabellenzeile**/
+.item_wpbb {
+	width: 100%
+}
+/*Tabellenspalte 1*/
+.details_wpbb {
+	padding: 0 !important;
+	text-align: center;
+	font-size: 0.6em;
+	vertical-align: top;
+	width: 50px;
+}
+/*Tabellenspalte 2*/
+.details_wpbb2 {
+	padding: 2px !important;
+	font-size: 0.9em;
+	vertical-align: top;
+  min-width: 200px;
+}
+/*Tabellenspalte 3*/
+.details_wpbb3 {
+	padding: 2px !important;
+	font-size: 0.9em;
+	vertical-align: top;
+  min-width: 160px;
+}
+/*Tabellenspalte 4*/
+.details_wpbb4 {
+	padding: 2px !important;
+	min-width: 80px;
+	font-size: 0.9em;
+	vertical-align: top;
+}
+/* Einstellungen infobox mit Beschreibungsdaten der jeweiligen Produkte*/
+a.info_wpbb {
+	position: relative;
+	color: #2D006B;
+	text-decoration: none;
+}
+a.info_wpbb:hover {
+	position: relative;
+	z-index: 100000;
+}
+a.info_wpbb span {
+	display: none;
+}
+a.info_wpbb:hover span {
+	position: absolute;
+	z-index: 100000 !important;
+	margin: -100px 0px 0px -300px;
+	display: block;
+	border: 1px solid #12127D;
+	border-radius: 15px;
+	-moz-border-radius: 15px;
+	-webkit-box-shadow: 10px 10px 10px #327E04;
+/* webkit browser */
+	-moz-box-shadow: 10px 10px 10px #327E04;
+/* firefox */
+	box-shadow: 10px 10px 10px #327E04;
+	width: 300px;
+	background-color: #b3f7f7;
+	color: #000;
+	text-align: block;
+	padding: 5px;
+}
+/*Preisdarstellung*/
+.preise {
+  float: right;
+  min-width: 80px;
+  margin: 0;
+  padding: 0 5px 0 0;
+	text-align: right;
+}
+/*info-icon*/
+.img_wpbb {
+	margin: 5px 0 5px 38px;
+	width: 40px;
+	border: none;
+	vertical-align: top;
+}
+/*Darstellung des Minibildes des jeweiligen Produkts*/
+.img_wpbb3 {
+	margin: 5px 0 0 0;
+	width: 46px;
+	border: none;
+	vertical-align: top;
+}
+/*Kursiv Einstellungen*/
+.kursiv_wpbb {
+	font-size: 80%;
+	font-style: italic;
+}
+/*Abstand zum Seitenende*/
+.distance {
+	margin-bottom: 100px;
+}
+/*infobox mit dem etwas größeren Produktbild bei hovern des Minibildes*/ 
+a.info2_wpbb {
+	position: relative;
+	color: #2D006B;
+	text-decoration: none;
+}
+a.info2_wpbb:hover {
+	position: relative;
+	z-index: 100000;
+}
+a.info2_wpbb span {
+	display: none;
+}
+a.info2_wpbb:hover span {
+	position: absolute;
+	z-index: 100000 !important;
+	margin: -100px 0px 0px 30px;
+	display: block;
+	border: 1px solid #12127D;
+	-webkit-box-shadow: 10px 10px 10px #327E04;
+/* webkit browser */
+	-moz-box-shadow: 10px 10px 10px #327E04;
+/* firefox */
+	box-shadow: 10px 10px 10px #327E04;
+	width: 100px;
+	min-height: 20px;
+	background-color: #fff;
+	text-align: center;
+}
+/*größeres Produktbild das beim hovern gezeigt wird*/
+.img2_wpbb {
+	width: 100px;
+}
